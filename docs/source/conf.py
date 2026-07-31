@@ -17,7 +17,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+import os
 import re
+import sys
+
+sys.path.insert(0, os.path.abspath('../../src'))
 
 from kedro.framework.cli.utils import find_stylesheets
 from recommonmark.transform import AutoStructify
@@ -150,7 +154,7 @@ latex_documents = [
         master_doc,
         "anomaly_detection_pipeline_kedro.tex",
         "anomaly_detection_pipeline_kedro Documentation",
-        "Kedro",
+        "Dakshh Agarwal",
         "manual",
     )
 ]
