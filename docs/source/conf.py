@@ -27,7 +27,7 @@ from anomaly_detection_pipeline_kedro import __version__ as release
 # -- Project information -----------------------------------------------------
 
 project = "anomaly_detection_pipeline_kedro"
-author = "Kedro"
+author = "Dakshh Agarwal"
 
 # The short X.Y version.
 version = re.match(r"^([0-9]+\.[0-9]+).*", release).group(1)
